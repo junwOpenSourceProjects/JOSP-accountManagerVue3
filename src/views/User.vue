@@ -129,6 +129,7 @@
 </template>
 
 <script setup lang="ts">
+// 用户管理页面：用户列表查询、新增、编辑、删除、批量删除
 import { ref, reactive, onMounted } from 'vue'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import { getUserPage, addUser, updateUser, deleteUser, batchDeleteUser } from '@/api/user'

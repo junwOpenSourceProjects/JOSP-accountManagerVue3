@@ -3,6 +3,7 @@
 </template>
 
 <script setup lang="ts">
+// 应用根组件：路由视图容器
 </script>
 
 <style>
