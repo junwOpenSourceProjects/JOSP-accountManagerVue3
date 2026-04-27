@@ -5,8 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  lodash: '>=4.18.0'
-  follow-redirects: '>=1.16.0'
+  lodash: ^4.17.21
+  follow-redirects: ^1.16.0
+  axios: ^1.15.2
 
 importers:
 
@@ -556,7 +557,7 @@ packages:
     resolution: {integrity: sha512-WK9qSozxXOD7ZJQlpSqOT+om2ZfcT4yO+03FuzAHD0wF6S0l0090LRPDx3vhTTLZ8cFKpBn+IOcVXK6qOcIlfQ==}
     peerDependencies:
       '@types/lodash-es': '*'
-      lodash: '>=4.18.0'
+      lodash: ^4.17.21
       lodash-es: '*'
 
   lodash@4.18.1:
