@@ -25,7 +25,9 @@
     "overrides": {
       "lodash": "^4.17.21",
       "follow-redirects": "^1.16.0",
-      "axios": "^1.15.2"
+      "axios": "^1.15.2",
+      "picomatch": "^4.0.4",
+      "brace-expansion": "^5.0.5"
     }
   }
 }
