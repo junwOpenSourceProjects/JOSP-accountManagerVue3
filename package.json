@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.2",
-    "axios": "^1.15.2",
+    "axios": "^1.15.0",
     "element-plus": "^2.13.7",
     "pinia": "^3.0.4",
     "vue": "^3.5.33",
@@ -25,7 +25,7 @@
     "overrides": {
       "lodash": "^4.17.21",
       "follow-redirects": "^1.16.0",
-      "axios": "^1.15.2",
+      "axios": "^1.15.0",
       "picomatch": "^4.0.4",
       "brace-expansion": "^5.0.5"
     }
