@@ -1,15 +1,16 @@
+# Dependencies
 node_modules
 .DS_Store
-dist
-dist-ssr
-*.local
-coverage/
-*.lcov
 
-.env
-.env.*
-!.env.example
+# Nuxt build & generate
+.dist
+.dist-ssr
+.output
+.nuxt
+.nitro
+.cache
 
+# Logs
 logs/
 *.log
 npm-debug.log*
@@ -17,6 +18,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# Editor
 .vscode/
 .idea/
 *.suo
@@ -25,5 +27,16 @@ pnpm-debug.log*
 *.sln
 *.sw?
 
+# Environment
+.env
+.env.*
+!.env.example
+
+# Testing
+coverage/
+*.lcov
+
+# Misc
 *.tsbuildinfo
 Thumbs.db
+*.local
